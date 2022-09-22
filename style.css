@@ -1,12 +1,13 @@
-html{
-    overflow-x: hidden;
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .underline--magical {
     background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
     background-repeat: no-repeat;
-    background-size: 100% 0.2em;
-    background-position: 0 88%;
+    background-size: 100% 0.5em;
+    background-position: 0 90%;
     transition: background-size 0.5s ease-in;
   }
   .underline--magical:hover{
@@ -20,6 +21,120 @@ html{
     }
   }
 
+  /* #projects{
+    width:800px;
+    height:800px;
+    display: inline-block;
+    flex-wrap:wrap;
+}
+
+#projects-box{
+    display: flex;
+    flex-wrap:wrap;
+    padding:15px;
+} */
+
+@media only screen and (min-width:7660px) {
+  #projects{
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+#skillsdiv
+{
+  margin:5px;
+  display:flex;
+}
+
+.first {
+  width: 25%;
+  display: inline-block;
+  background: linear-gradient(45deg , rgb(134, 227, 206),rgb(204, 171, 216));
+  border-radius:18px;
+  text-align: center;
+  margin: 4px;
+  
+}
+
+.second {
+  width: 25%;
+  display: inline-block;
+  background: linear-gradient(45deg , rgb(16, 29, 64),rgb(165, 211, 216));
+  border-radius:18px;
+  text-align: center;
+  margin: 4px;
+}
+
+.third {
+  width: 25%;
+  display: inline-block;
+  background: linear-gradient(45deg , rgb(28, 1, 37),rgb(255, 204, 75));
+  border-radius:18px;
+  text-align: center;
+  margin: 4px;
+}
+
+.fourth {
+  width: 25%;
+  display: inline-block;
+  background: linear-gradient(45deg ,rgb(100, 164, 214),rgb(199, 130, 194));
+  border-radius:18px;
+  text-align: center;
+  margin: 4px;
+}
+.fifth {
+  width: 25%;
+  display: inline-block;
+  background: linear-gradient(45deg ,rgb(205, 110, 54),rgb(212, 0, 255));
+  border-radius:18px;
+  text-align: center;
+  margin: 4px;
+}
+.sixth {
+  width: 25%;
+  display: inline-block;
+  background:linear-gradient(45deg,rgb(134, 227, 206),rgb(208, 230, 165));
+  border-radius:18px;
+  text-align: center;
+  margin: 4px;
+}
+.seventh {
+  width: 25%;
+  display: inline-block;
+  background : linear-gradient(45deg,rgb(35, 81, 94),rgb(190, 131, 139));
+  border-radius:18px;
+  text-align: center;
+  margin: 4px;
+}
+.eight {
+  width: 25%;
+  display: inline-block;
+  background:linear-gradient(45deg,rgb(105, 122, 152),rgb(184, 191, 214));
+  border-radius:18px;
+  text-align: center;
+  margin: 4px;
+}
+@media screen and (max-width: 600px) {
+
+  .first,
+  .second,
+  .third,
+  .fourth,
+  .fifth,
+  .sixth,
+  .seventh,
+  .eight {
+      width: 25%;
+      text-align: center;
+  }
+}
+
+a 
+{
+  text-decoration: none;
+  color:white;
+}
 
 
 

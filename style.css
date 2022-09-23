@@ -138,9 +138,13 @@ a
 
 #resume 
 {
-  background-image: linear-gradient(120deg, #84fab2 0%, #8fd3f4 100%);
+  background-image: linear-gradient(120deg, rgb(0, 188, 180) 0%, rgb(196, 232, 107) 100%);
 }
 
+#aboutdiv
+{
+  padding:25px;
+}
 
 
   

@@ -238,20 +238,16 @@
             </div>
             <div class="col-md-10 mx-auto col-lg-5">
               <form
-              action="https://formspree.io/f/xzbqedar"
+               action="https://formspree.io/f/xzbqedar"
               method="POST"
                class="p-4 p-md-5 border rounded-3 bg-light">
                 <div class="form-floating mb-3">
-                  <label for="floatingInput">
-                  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                  </label>
-                 <!-- <label for="floatingInput">Email address</label>-->
+                  <input type="email" name = "email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                  <label for="floatingInput" name = "email">Email address</label>
                 </div>
                 <div class="form-floating mb-3">
-                  <label for="exampleFormControlTextarea">
-                  <textarea class="form-control" id="exampleFormControlTextarea" rows="7" placeholder="Message"></textarea>
-                  </label>
-                 <!-- <label for="exampleFormControlTextarea">Message</label> -->
+                  <textarea class="form-control" name="message" id="exampleFormControlTextarea" rows="7" placeholder="Message"></textarea>
+                  <label for="exampleFormControlTextarea" name="message">Message</label>
                 </div>
                 <button class="w-100 btn btn-lg btn-primary" type="submit"><a href="https://mail.google.com/mail/" target="_blank">Send Email</a></button>
                 <!-- <hr class="my-4"> -->
